@@ -1,0 +1,10 @@
+version: '2.2.1'
+
+services:
+  website:
+    image: f026b5fdf482
+    volumes: 
+      - ./website:/var/www/html
+    ports: 
+      - 5000:80
+    
